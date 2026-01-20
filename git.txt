@@ -1,0 +1,4 @@
+Práctica 1 – Git y GitHub
+
+Repositorio: p1-fork
+Usuario: sofiagarciaflores
