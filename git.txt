@@ -2,3 +2,83 @@ Práctica 1 – Git y GitHub
 
 Repositorio: p1-fork
 Usuario: sofiagarciaflores
+
+
+COMANDO: git clone
+
+Qué hace:
+Clona un repositorio remoto de GitHub y crea una copia local en el ordenador.
+
+Para qué lo he usado en esta práctica:
+He clonado mi fork del repositorio de la práctica para poder trabajar en local.
+
+Salida en consola:
+Cloning into 'p1-fork'...
+Receiving objects: 100%
+
+
+COMANDO: git status
+
+Qué hace:
+Muestra el estado del repositorio, indicando la rama actual y si hay cambios pendientes.
+
+Para qué lo he usado en esta práctica:
+Lo he utilizado para comprobar el estado del repositorio antes y después de realizar cambios.
+
+Salida en consola:
+On branch main
+Your branch is up to date with 'origin/main'.
+nothing to commit, working tree clean
+
+
+COMANDO: git add
+
+Qué hace:
+Añade archivos al área de preparación (staging) para incluirlos en el próximo commit.
+
+Para qué lo he usado en esta práctica:
+Lo he usado para añadir el archivo git.txt antes de hacer el commit.
+
+Salida en consola:
+Changes to be committed:
+  new file: git.txt
+
+
+COMANDO: git commit
+
+Qué hace:
+Guarda los cambios preparados en el historial del repositorio con un mensaje descriptivo.
+
+Para qué lo he usado en esta práctica:
+He creado un commit con el archivo git.txt para registrar los cambios realizados.
+
+Salida en consola:
+[main XXXXXXX] Añade git.txt con explicación de comandos
+1 file changed, insertions(+)
+create mode 100644 git.txt
+
+
+COMANDO: git push
+
+Qué hace:
+Envía los commits locales al repositorio remoto en GitHub.
+
+Para qué lo he usado en esta práctica:
+He subido el commit con git.txt a mi repositorio en GitHub.
+
+Salida en consola:
+Writing objects: 100%
+main -> main
+
+
+COMANDO: git checkout
+
+Qué hace:
+Permite cambiar entre ramas o crear una nueva rama y cambiar a ella.
+
+Para qué lo he usado en esta práctica:
+He creado una rama llamada prueba-checkout y después he vuelto a la rama principal main.
+
+Salida en consola:
+Switched to a new branch 'prueba-checkout'
+Switched to branch 'main'
